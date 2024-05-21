@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tab Navigation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="tablinks" onclick="openTab(event, 'Home')">Home</a></li>
+            <li><a href="#" class="tablinks" onclick="openTab(event, 'Organize')">Organize</a></li>
+            <li><a href="#" class="tablinks" onclick="openTab(event, 'Team')">Team</a></li>
+            <li><a href="#" class="tablinks" onclick="openTab(event, 'Admin')">Admin</a></li>
+        </ul>
+    </nav>
+
+    <div id="Home" class="tabcontent">
+        <h2>Home</h2>
+        <p>Welcome to the Home page!</p>
+    </div>
+
+    <div id="Organize" class="tabcontent">
+        <h2>Organize</h2>
+        <p>Here you can organize your tasks.</p>
+    </div>
+
+    <div id="Team" class="tabcontent">
+        <h2>Team</h2>
+        <p>Meet our team members.</p>
+    </div>
+
+    <div id="Admin" class="tabcontent">
+        <h2>Admin</h2>
+        <p>Admin section for managing the site.</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
